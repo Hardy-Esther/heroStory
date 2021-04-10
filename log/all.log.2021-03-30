@@ -1,0 +1,548 @@
+[00:31:02,311] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:31:02,316] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:31:02,318] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:31:02,320] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:31:02,322] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:31:02,324] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:31:02,328] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:31:02,330] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:31:02,332] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:31:02,334] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:31:02,335] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:31:02,337] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:31:02,339] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:31:02,343] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:31:02,346] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:31:02,348] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:31:02,350] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:31:02,363] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:31:02,363] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:31:02,363] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:31:02,363] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:31:02,363] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:34:54,503] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:34:54,506] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:34:54,508] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:34:54,510] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:34:54,513] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:34:54,516] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:34:54,519] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:34:54,521] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:34:54,522] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:34:54,524] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:34:54,526] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:34:54,530] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:34:54,532] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:34:54,536] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:34:54,538] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:34:54,540] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:34:54,543] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:34:54,557] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:34:54,558] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:34:54,558] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:34:54,558] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:34:54,558] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:39:42,975] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:39:42,978] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:39:42,980] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:39:42,982] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:39:42,986] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:39:42,988] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:39:42,991] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:39:42,993] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:39:42,994] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:39:42,996] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:39:42,998] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:39:43,002] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:39:43,004] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:39:43,008] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:39:43,009] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:39:43,011] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:39:43,014] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:39:43,028] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:39:43,028] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:39:43,028] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:39:43,028] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:39:43,029] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:39:43,643] [INFO] ServerMain.main --> 服务器启动成功
+[00:40:06,472] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:40:10,638] [ERROR] LoginService.userLogin --> 
+### Error querying database.  Cause: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+### The error may exist in org/tinygame/hero_story/login/db/IUserDao.xml
+### The error may involve org.tinygame.hero_story.login.db.IUserDao.getUserByName
+### The error occurred while executing a query
+### Cause: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+org.apache.ibatis.exceptions.PersistenceException: 
+### Error querying database.  Cause: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+### The error may exist in org/tinygame/hero_story/login/db/IUserDao.xml
+### The error may involve org.tinygame.hero_story.login.db.IUserDao.getUserByName
+### The error occurred while executing a query
+### Cause: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at org.apache.ibatis.exceptions.ExceptionFactory.wrapException(ExceptionFactory.java:30)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:149)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:140)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectOne(DefaultSqlSession.java:76)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:87)
+	at org.apache.ibatis.binding.MapperProxy$PlainMethodInvoker.invoke(MapperProxy.java:152)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy10.getUserByName(Unknown Source)
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:45)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: java.sql.SQLNonTransientConnectionException: Could not create connection to database server. Attempted reconnect 3 times. Giving up.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:110)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:73)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:906)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:831)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:456)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:246)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:197)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:677)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:189)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:224)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.doGetConnection(UnpooledDataSource.java:219)
+	at org.apache.ibatis.datasource.unpooled.UnpooledDataSource.getConnection(UnpooledDataSource.java:95)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.popConnection(PooledDataSource.java:432)
+	at org.apache.ibatis.datasource.pooled.PooledDataSource.getConnection(PooledDataSource.java:89)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.openConnection(JdbcTransaction.java:139)
+	at org.apache.ibatis.transaction.jdbc.JdbcTransaction.getConnection(JdbcTransaction.java:61)
+	at org.apache.ibatis.executor.BaseExecutor.getConnection(BaseExecutor.java:337)
+	at org.apache.ibatis.executor.SimpleExecutor.prepareStatement(SimpleExecutor.java:86)
+	at org.apache.ibatis.executor.SimpleExecutor.doQuery(SimpleExecutor.java:62)
+	at org.apache.ibatis.executor.BaseExecutor.queryFromDatabase(BaseExecutor.java:325)
+	at org.apache.ibatis.executor.BaseExecutor.query(BaseExecutor.java:156)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:109)
+	at org.apache.ibatis.executor.CachingExecutor.query(CachingExecutor.java:89)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.selectList(DefaultSqlSession.java:147)
+	... 15 more
+Caused by: com.mysql.cj.exceptions.InvalidConnectionAttributeException: The server time zone value '�й���׼ʱ��' is unrecognized or represents more than one time zone. You must configure either the server or JDBC driver (via the 'serverTimezone' configuration property) to use a more specifc time zone value if you want to utilize time zone support.
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:85)
+	at com.mysql.cj.util.TimeUtil.getCanonicalTimezone(TimeUtil.java:132)
+	at com.mysql.cj.protocol.a.NativeProtocol.configureTimezone(NativeProtocol.java:2118)
+	at com.mysql.cj.protocol.a.NativeProtocol.initServerSession(NativeProtocol.java:2142)
+	at com.mysql.cj.jdbc.ConnectionImpl.initializePropsFromServer(ConnectionImpl.java:1310)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectWithRetries(ConnectionImpl.java:869)
+	... 36 more
+[00:40:10,641] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:45:19,597] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:45:19,600] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:45:19,602] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:45:19,604] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:45:19,606] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:45:19,608] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:45:19,611] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:45:19,613] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:45:19,615] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:45:19,617] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:45:19,619] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:45:19,621] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:45:19,622] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:45:19,626] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:45:19,627] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:45:19,629] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:45:19,632] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:45:19,644] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:45:19,644] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:45:19,644] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:45:19,645] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:45:19,645] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:45:20,183] [INFO] ServerMain.main --> 服务器启动成功
+[00:45:31,443] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:45:31,838] [ERROR] LoginService.userLogin --> Invalid bound statement (not found): org.tinygame.hero_story.login.db.IUserDao.insertInfo
+org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): org.tinygame.hero_story.login.db.IUserDao.insertInfo
+	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:235)
+	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
+	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:115)
+	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
+	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:102)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:85)
+	at com.sun.proxy.$Proxy10.insertInfo(Unknown Source)
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:58)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:45:31,840] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:48:31,089] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:48:31,092] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:48:31,095] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:48:31,097] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:48:31,098] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:48:31,100] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:48:31,104] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:48:31,106] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:48:31,107] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:48:31,110] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:48:31,111] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:48:31,113] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:48:31,115] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:48:31,119] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:48:31,121] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:48:31,123] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:48:31,126] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:48:31,138] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:48:31,138] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:48:31,138] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:48:31,138] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:48:31,138] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:48:31,698] [INFO] ServerMain.main --> 服务器启动成功
+[00:48:40,805] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:51:07,199] [INFO] UserLoginCmdHandler.handle --> userName = z,password = z
+[00:51:07,202] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:50)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:51:07,204] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:51:22,190] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:51:22,193] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:50)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:51:22,193] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:51:55,326] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:51:55,328] [ERROR] LoginService.userLogin --> 用户密码错误，userName = z
+[00:51:55,328] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:50)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:51:55,329] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:52:08,614] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:52:08,617] [ERROR] LoginService.userLogin --> 用户密码错误，userName = z
+[00:52:08,617] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:50)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:52:08,617] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:54:03,736] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:54:03,740] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:54:03,742] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:54:03,744] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:54:03,746] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:54:03,748] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:54:03,752] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:54:03,753] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:54:03,755] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:54:03,758] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:54:03,760] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:54:03,762] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:54:03,763] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:54:03,767] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:54:03,769] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:54:03,771] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:54:03,774] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:54:03,785] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:54:03,785] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:54:03,785] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:54:03,785] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:54:03,786] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:54:04,329] [INFO] ServerMain.main --> 服务器启动成功
+[00:54:09,151] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:54:09,472] [ERROR] LoginService.userLogin --> 用户密码错误，userName = z
+[00:54:09,473] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:52)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:54:09,475] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:54:32,158] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:54:32,160] [ERROR] LoginService.userLogin --> 用户密码错误，userName = z
+[00:54:32,160] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:52)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:54:32,161] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:55:37,325] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:55:37,328] [ERROR] LoginService.userLogin --> 用户密码错误，userName = z
+[00:55:37,328] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:52)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:55:37,329] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:55:52,343] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:55:52,346] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:55:52,348] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:55:52,350] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:55:52,352] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:55:52,354] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:55:52,358] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:55:52,359] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:55:52,361] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:55:52,363] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:55:52,365] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:55:52,367] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:55:52,369] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:55:52,372] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:55:52,374] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:55:52,375] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:55:52,378] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:55:52,389] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:55:52,389] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:55:52,389] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:55:52,389] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:55:52,389] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:55:52,926] [INFO] ServerMain.main --> 服务器启动成功
+[00:55:59,773] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:56:00,090] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:52)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:56:00,091] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:56:52,770] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:56:52,774] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:56:52,776] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:56:52,777] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:56:52,779] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:56:52,781] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:56:52,784] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:56:52,786] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:56:52,788] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:56:52,790] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:56:52,792] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:56:52,794] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:56:52,796] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:56:52,799] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:56:52,801] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:56:52,803] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:56:52,805] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:56:52,816] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:56:52,816] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:56:52,816] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:56:52,816] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:56:52,816] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:56:53,365] [INFO] ServerMain.main --> 服务器启动成功
+[00:56:57,127] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[00:56:57,449] [ERROR] LoginService.userLogin --> 用户密码错误
+java.lang.RuntimeException: 用户密码错误
+	at org.tinygame.hero_story.login.LoginService.userLogin(LoginService.java:51)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:25)
+	at org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler.handle(UserLoginCmdHandler.java:14)
+	at org.tinygame.hero_story.MainThreadProcessor.lambda$process$1(MainThreadProcessor.java:69)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+[00:56:57,451] [ERROR] UserLoginCmdHandler.handle --> 用户登陆失败，userName = z
+[00:58:03,429] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[00:58:03,433] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[00:58:03,435] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[00:58:03,437] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[00:58:03,438] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[00:58:03,440] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[00:58:03,443] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[00:58:03,446] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[00:58:03,448] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[00:58:03,450] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[00:58:03,452] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[00:58:03,454] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[00:58:03,456] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[00:58:03,460] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[00:58:03,462] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[00:58:03,464] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[00:58:03,467] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[00:58:03,479] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[00:58:03,479] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[00:58:03,479] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[00:58:03,479] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[00:58:03,479] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[00:58:04,027] [INFO] ServerMain.main --> 服务器启动成功
+[00:58:07,619] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[01:00:33,079] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[01:38:50,638] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[16:30:20,446] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[16:30:20,450] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[16:30:20,452] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[16:30:20,453] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[16:30:20,456] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[16:30:20,459] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[16:30:20,462] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[16:30:20,464] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[16:30:20,466] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[16:30:20,468] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[16:30:20,470] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[16:30:20,471] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[16:30:20,474] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[16:30:20,478] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[16:30:20,480] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[16:30:20,482] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[16:30:20,485] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[16:30:20,494] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[16:30:20,494] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[16:30:20,494] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[16:30:20,494] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[16:30:20,495] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[16:30:21,167] [INFO] ServerMain.main --> 服务器启动成功
+[16:31:27,898] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[16:31:27,905] [INFO] LoginService.userLogin --> 当前线程 = AsyncOperationProcessor
+[18:07:26,691] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[18:07:26,694] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[18:07:26,697] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[18:07:26,699] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[18:07:26,700] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[18:07:26,702] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[18:07:26,705] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[18:07:26,706] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[18:07:26,708] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[18:07:26,709] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[18:07:26,715] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[18:07:26,716] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[18:07:26,718] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[18:07:26,720] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[18:07:26,722] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[18:07:26,723] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[18:07:26,726] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[18:07:26,738] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[18:07:26,739] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[18:07:26,739] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[18:07:26,740] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[18:07:26,740] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[18:07:27,383] [INFO] ServerMain.main --> 服务器启动成功
+[18:07:44,084] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[18:10:41,842] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[18:10:41,849] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[18:10:41,853] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[18:10:41,856] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[18:10:41,858] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[18:10:41,860] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[18:10:41,866] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[18:10:41,870] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[18:10:41,873] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[18:10:41,875] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[18:10:41,877] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[18:10:41,882] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[18:10:41,886] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[18:10:41,890] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[18:10:41,892] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[18:10:41,894] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[18:10:41,899] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[18:10:41,909] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[18:10:41,911] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[18:10:41,911] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[18:10:41,911] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[18:10:41,912] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[18:10:42,578] [INFO] ServerMain.main --> 服务器启动成功
+[18:10:45,922] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[18:12:40,846] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[18:12:40,848] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[18:12:40,851] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[18:12:40,853] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[18:12:40,854] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[18:12:40,856] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[18:12:40,858] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[18:12:40,860] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[18:12:40,861] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[18:12:40,863] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[18:12:40,866] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[18:12:40,869] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[18:12:40,870] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[18:12:40,873] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[18:12:40,874] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[18:12:40,876] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[18:12:40,878] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[18:12:40,892] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[18:12:40,892] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[18:12:40,892] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[18:12:40,892] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[18:12:40,893] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[18:12:41,471] [INFO] ServerMain.main --> 服务器启动成功
+[18:12:45,238] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[18:12:45,245] [INFO] LoginService$AsyncGetUserByName.doAsync --> 当前线程 = AsyncOperationProcessor_2
+[18:14:04,537] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[18:14:04,540] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[18:14:04,541] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[18:14:04,543] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[18:14:04,544] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[18:14:04,545] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[18:14:04,548] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[18:14:04,550] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[18:14:04,552] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[18:14:04,554] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[18:14:04,555] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[18:14:04,557] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[18:14:04,558] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[18:14:04,560] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[18:14:04,561] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[18:14:04,563] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[18:14:04,569] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[18:14:04,578] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[18:14:04,578] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[18:14:04,578] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[18:14:04,578] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[18:14:04,579] [INFO] CmdHandlerFactory.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[18:14:05,165] [INFO] ServerMain.main --> 服务器启动成功
+[18:14:29,359] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[18:14:29,366] [INFO] LoginService$AsyncGetUserByName.doAsync --> 当前线程 = AsyncOperationProcessor_2

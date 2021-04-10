@@ -1,0 +1,67 @@
+[01:28:41,036] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$GetRankResult <==> 18
+[01:28:41,042] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$GetRankCmd <==> 17
+[01:28:41,045] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroResult <==> 16
+[01:28:41,047] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$SelectHeroCmd <==> 15
+[01:28:41,050] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginResult <==> 14
+[01:28:41,056] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> 13
+[01:28:41,063] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserDieResult <==> 12
+[01:28:41,067] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserSubtractHpResult <==> 11
+[01:28:41,069] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkResult <==> 10
+[01:28:41,072] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> 9
+[01:28:41,074] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopResult <==> 8
+[01:28:41,077] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserStopCmd <==> 7
+[01:28:41,079] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserQuitResult <==> 6
+[01:28:41,081] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToResult <==> 5
+[01:28:41,083] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> 4
+[01:28:41,087] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereResult <==> 3
+[01:28:41,091] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> 2
+[01:28:41,094] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryResult <==> 1
+[01:28:41,096] [INFO] GameMsgRecognizer.init --> org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> 0
+[01:28:41,097] [INFO] CmdHandlerFactory.init --> ==== 完成 Cmd 和 Handler 的关联 ====
+[01:28:41,111] [INFO] CmdHandlerFactory.init --> 关联 org.tinygame.hero_story.msg.GameMsgProtocol$UserLoginCmd <==> org.tinygame.hero_story.cmdHandle.UserLoginCmdHandler
+[01:28:41,111] [INFO] CmdHandlerFactory.init --> 关联 org.tinygame.hero_story.msg.GameMsgProtocol$WhoElseIsHereCmd <==> org.tinygame.hero_story.cmdHandle.WhoElseIsHereCmdHandler
+[01:28:41,111] [INFO] CmdHandlerFactory.init --> 关联 org.tinygame.hero_story.msg.GameMsgProtocol$UserAttkCmd <==> org.tinygame.hero_story.cmdHandle.UserAttkCmdHandler
+[01:28:41,111] [INFO] CmdHandlerFactory.init --> 关联 org.tinygame.hero_story.msg.GameMsgProtocol$UserEntryCmd <==> org.tinygame.hero_story.cmdHandle.UserEntryCmdHandler
+[01:28:41,111] [INFO] CmdHandlerFactory.init --> 关联 org.tinygame.hero_story.msg.GameMsgProtocol$GetRankCmd <==> org.tinygame.hero_story.cmdHandle.GetRankCmdHandler
+[01:28:41,111] [INFO] CmdHandlerFactory.init --> 关联 org.tinygame.hero_story.msg.GameMsgProtocol$UserMoveToCmd <==> org.tinygame.hero_story.cmdHandle.UserMoveToCmdHandler
+[01:28:42,033] [INFO] ServerMain.main --> 服务器启动成功
+[01:30:19,615] [INFO] UserLoginCmdHandler.handle --> userName = z,password = 1
+[01:30:19,625] [INFO] LoginService$AsyncGetUserByName.doAsync --> 当前线程 = AsyncOperationProcessor_2
+[01:30:22,121] [ERROR] LoginService$AsyncGetUserByName.doAsync --> Could not get a resource from the pool
+redis.clients.jedis.exceptions.JedisConnectionException: Could not get a resource from the pool
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:59)
+	at redis.clients.jedis.JedisPool.getResource(JedisPool.java:330)
+	at org.tinygame.hero_story.util.RedisUtil.getRedis(RedisUtil.java:45)
+	at org.tinygame.hero_story.login.LoginService.updateUserBasicInfoRedis(LoginService.java:70)
+	at org.tinygame.hero_story.login.LoginService$AsyncGetUserByName.doAsync(LoginService.java:134)
+	at org.tinygame.hero_story.async.AsyncOperationProcessor.lambda$process$1(AsyncOperationProcessor.java:56)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:630)
+	at java.base/java.lang.Thread.run(Thread.java:832)
+Caused by: redis.clients.jedis.exceptions.JedisConnectionException: Failed connecting to 127.0.0.1:6379
+	at redis.clients.jedis.Connection.connect(Connection.java:170)
+	at redis.clients.jedis.BinaryClient.connect(BinaryClient.java:113)
+	at redis.clients.jedis.BinaryJedis.connect(BinaryJedis.java:2039)
+	at redis.clients.jedis.JedisFactory.makeObject(JedisFactory.java:149)
+	at org.apache.commons.pool2.impl.GenericObjectPool.create(GenericObjectPool.java:889)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:424)
+	at org.apache.commons.pool2.impl.GenericObjectPool.borrowObject(GenericObjectPool.java:349)
+	at redis.clients.jedis.util.Pool.getResource(Pool.java:50)
+	... 10 more
+Caused by: java.net.SocketTimeoutException: Connect timed out
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:597)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:333)
+	at java.base/java.net.Socket.connect(Socket.java:648)
+	at redis.clients.jedis.DefaultJedisSocketFactory.createSocket(DefaultJedisSocketFactory.java:53)
+	at redis.clients.jedis.Connection.connect(Connection.java:163)
+	... 17 more
+[01:36:14,799] [INFO] Slf4jLoggerFactory$Slf4jLogger.info --> closeChannel: close the connection to remote address[192.168.76.129:10911] result: true
+[01:36:43,813] [INFO] Slf4jLoggerFactory$Slf4jLogger.info --> closeChannel: close the connection to remote address[192.168.76.129:9876] result: true
+[01:36:46,814] [INFO] Slf4jLoggerFactory$Slf4jLogger.info --> closeChannel: close the connection to remote address[192.168.76.129:10911] result: true
+[01:37:14,809] [INFO] Slf4jLoggerFactory$Slf4jLogger.info --> closeChannel: close the connection to remote address[192.168.76.129:9876] result: true
+[01:37:17,810] [INFO] Slf4jLoggerFactory$Slf4jLogger.info --> closeChannel: close the connection to remote address[192.168.76.129:10911] result: true
+[01:37:44,806] [INFO] Slf4jLoggerFactory$Slf4jLogger.info --> closeChannel: close the connection to remote address[192.168.76.129:9876] result: true
+[01:37:47,807] [INFO] Slf4jLoggerFactory$Slf4jLogger.info --> closeChannel: close the connection to remote address[192.168.76.129:10911] result: true
